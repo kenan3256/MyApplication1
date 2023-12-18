@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FF9371"
+    android:padding="20dp"
+    android:layout_centerHorizontal="true"
+
+    android:gravity="center">
+
+
+    <EditText
+        android:id="@+id/edt_txt_input1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email addres">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/edt_txt_input2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password">
+
+    </EditText>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/cardview_shadow_end_color">
+
+        <Button
+            android:id="@+id/btn_7"
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:layout_weight="4">
+        </Button>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/cardview_shadow_end_color">
+        <Button
+            android:id="@+id/btn_0"
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Login with Facebook"
+            android:layout_weight="4">
+        </Button>
+
+        <Button
+            android:id="@+id/btn_point"
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Lofin with Twitter"
+            android:layout_weight="4">
+        </Button>
+
+
+</LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+

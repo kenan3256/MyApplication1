@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FF9123"
+    android:padding="50dp">
+
+    <EditText
+        android:id="@+id/edt_txt_input1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/cardview_shadow_end_color">
+
+        <Button
+            android:id="@+id/btn_7"
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:text="7"
+            android:layout_weight="4">
+        </Button>
+
+        <Button
+            android:id="@+id/btn_8"
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:text="8"
+            android:layout_weight="4">
+        </Button>
+        <Button
+            android:id="@+id/btn_9"
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:text="9"
+            android:layout_weight="4">
+        </Button>
+        <Button
+            android:id="@+id/btn_divide"
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:layout_weight="4">
+        </Button>
+
+
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/cardview_shadow_end_color">
+        <Button
+            android:id="@+id/btn_6"
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:text="6"
+            android:layout_weight="4">
+        </Button>
+
+        <Button
+            android:id="@+id/btn_5"
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:layout_weight="4">
+        </Button>
+        <Button
+            android:id="@+id/btn_4"
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:layout_weight="4">
+        </Button>
+        <Button
+            android:id="@+id/btn_multiplay"
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:layout_weight="4">
+        </Button>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/cardview_shadow_end_color">
+        <Button
+            android:id="@+id/btn_3"
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:layout_weight="4">
+        </Button>
+
+        <Button
+            android:id="@+id/btn_2"
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:layout_weight="4">
+        </Button>
+        <Button
+            android:id="@+id/btn_1"
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:layout_weight="4">
+        </Button>
+        <Button
+            android:id="@+id/btn_minus"
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:layout_weight="4">
+        </Button>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/cardview_shadow_end_color">
+        <Button
+            android:id="@+id/btn_0"
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_weight="4">
+        </Button>
+
+        <Button
+            android:id="@+id/btn_point"
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:text="."
+            android:layout_weight="4">
+        </Button>
+        <Button
+            android:id="@+id/btn_equels"
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:text="="
+            android:layout_weight="4">
+        </Button>
+        <Button
+            android:id="@+id/btn_plus"
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:layout_weight="4">
+        </Button>
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
